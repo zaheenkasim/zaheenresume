@@ -1,0 +1,73 @@
+.column {
+    float: left;
+    width: 25%;
+    font-size: 1cm;
+    /* height: 10cm; */
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .image{
+
+    height: 8cm;
+    width: 8cm;
+    margin-left: 1cm;
+    margin-top: 1cm;
+    transition: all 3s, transform .5s, box-shadow .5s;
+
+    
+  }
+  .image:hover, .button:hover {
+    box-shadow: 6px 6px 20px rgb(44, 41, 43);
+    transform:scale(1.02);
+}
+
+  .about{
+      color: white;
+      font-size: 0.5cm;
+      font-family: 'Courier New', Courier, monospace;
+      margin-top: 20%;
+      margin-left: 20%;
+  }
+
+  .middle{
+    margin-left: 15cm; 
+    margin-top:1cm"
+  }
+
+.project{
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 2cm;
+  background: yellow
+}
+
+.hobies{
+
+  width: 80%;
+  height: 10cm;
+  background: azure;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+
+  font-size: 0.5cm;
+  font-family: 
+}
