@@ -36,7 +36,7 @@ color:rgba(178, 43, 136, 1);
 p{
 color: rgba(178, 43, 136, 1);  
 }
-/* @media screen and (max-width: 940px) {
+ @media screen and (max-width: 940px) {
     img{
         width:37%
         }
@@ -51,4 +51,4 @@ color: rgba(178, 43, 136, 1);
         width:100%;
         margin: 20px 0; 
     }
-} */
+} 
