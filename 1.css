@@ -72,8 +72,20 @@
   font-family: 
 }
 
+
+@media screen and (max-width: 940px) {
+    body{
+        width:37%
+        }
+    }
+    
 @media screen and (max-width: 600px) {
-  body{
-    {width: 200px;  }
-  {margin-left: 216px;}
-}
+    body {
+        width:65%;
+    }
+    
+    image:focus {
+        width:100%;
+        margin: 20px 0; 
+    }
+} 
